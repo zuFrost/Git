@@ -34,6 +34,9 @@ public class TestString {
 		System.out.println(friend1);
 		System.out.println(friend2);
 		System.out.println(friend3);
+		
+		//Test comparing Strings
+		System.out.println("Is friend1 == friend3? " + (friend1 == friend3));
 
 	}
 
