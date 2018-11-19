@@ -20,6 +20,16 @@ public class WhileLoopDemo {
 				continue;
 			}
 			
+			if (friends[i] == "Matilda") {
+				//I find Matilda, now print and exit from loop
+				/* 3.	Change	the	code	to	exit	the	loop	as		
+				soon	as	the	program	finds	and	prints	the	name		
+				MaElda.	Use	the	 break	keyword	for	this.
+				*/
+				System.out.println("I love " + friends[i]);
+				break;
+			}
+			
 			System.out.println("I love " + friends[i]);
 			i++;
 		}
