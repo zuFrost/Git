@@ -21,7 +21,7 @@ public class Calculator {
 	JButton button7;
 	JButton button8;
 	JButton button9;
-	JButton buttonPoint;
+	JButton buttonPoint; 
 	JButton buttonEqual;
 //	JPanel windowContent;
 	JButton buttonPlus, buttonMinus, buttonMultiply, buttonDivide;
